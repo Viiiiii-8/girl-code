@@ -41,7 +41,7 @@ img {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #335081;
   font-family:"Jim Nightshade", cursive;
   margin: 0;
 }
@@ -74,7 +74,9 @@ header.primary h2 {
   letter-spacing: 1.5px;
  text-align:center;
  color:white;
+
 }
+
 
 #main-nav ul {
   display: flex;
@@ -105,7 +107,7 @@ header.primary a:hover {
 }
 
 #content h2 {
-  color: #3b638b;
+  color: white;
 }
 
 #articles {
@@ -133,7 +135,7 @@ figcaption,
 }
 
 article.post a {
-  color: #3b638b;
+  color: white;
 }
 
 article.post figure {
