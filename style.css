@@ -10,7 +10,7 @@
   max-width: 960px;
 }
 
-/* You can copy & paste slick-demos css here for fish scale background */
+/* Customize Slideshow */
 
 /* Customize Previous/Next/Dots/Autoplay */
 
@@ -19,7 +19,7 @@
 .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: rgb(56, 50, 50);
+  color: rgb(0, 0, 0);
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
@@ -31,7 +31,7 @@
 .slick-dots li button:focus .slick-dot-icon:before,
 .slick-dots li.slick-active button:focus .slick-dot-icon,
 .slick-autoplay-toggle-button:focus {
-  color:white;
+  color:white(109, 103, 103);
 }
 
 /*Responsive Images*/
@@ -41,22 +41,23 @@ img {
 }
 
 body {
-  background-color: #d8a8a8;
+  background-color: #ffffff;
   font-family:"Jim Nightshade", cursive;
   margin: 0;
 }
 
 header.primary {
+  background-color: #172635;
+
   background-image:
     url("img/sunset-clouds (1) (1) - Copy.jpg"),
-    url("img/pattern.svg");
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='100' viewBox='0 0 600 100'%3E%3Cg stroke='%232F4858' stroke-width='0' stroke-miterlimit='10'%3E%3Ccircle fill='%23EE005F' cx='0' cy='0' r='50'/%3E%3Ccircle fill='%23B72B8F' cx='100' cy='0' r='50'/%3E%3Ccircle fill='%236E4B9A' cx='200' cy='0' r='50'/%3E%3Ccircle fill='%23335081' cx='300' cy='0' r='50'/%3E%3Ccircle fill='%23006EB4' cx='400' cy='0' r='50'/%3E%3Ccircle fill='%232F4858' cx='500' cy='0' r='50'/%3E%3Ccircle fill='%23EE005F' cx='600' cy='0' r='50'/%3E%3Ccircle cx='-50' cy='50' r='50'/%3E%3Ccircle fill='%23d7117a' cx='50' cy='50' r='50'/%3E%3Ccircle fill='%2393409a' cx='150' cy='50' r='50'/%3E%3Ccircle fill='%2366468F' cx='250' cy='50' r='50'/%3E%3Ccircle fill='%23295f9a' cx='350' cy='50' r='50'/%3E%3Ccircle fill='%231c5c85' cx='450' cy='50' r='50'/%3E%3Ccircle fill='%23724e99' cx='550' cy='50' r='50'/%3E%3Ccircle cx='650' cy='50' r='50'/%3E%3Ccircle fill='%23EE005F' cx='0' cy='100' r='50'/%3E%3Ccircle fill='%23B72B8F' cx='100' cy='100' r='50'/%3E%3Ccircle fill='%236E4B9A' cx='200' cy='100' r='50'/%3E%3Ccircle fill='%23335081' cx='300' cy='100' r='50'/%3E%3Ccircle fill='%23006EB4' cx='400' cy='100' r='50'/%3E%3Ccircle fill='%232F4858' cx='500' cy='100' r='50'/%3E%3Ccircle fill='%23EE005F' cx='600' cy='100' r='50'/%3E%3C/g%3E%3C/svg%3E");
 
+  background-size: 80%, 100px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
-  background-size: 90%, cover; 
-  padding-top:40px;
-  padding-bottom:25px;
-  
+
+  padding: 60px 0;
 }
 
 header.primary h1 {
@@ -104,11 +105,8 @@ header.primary a:hover {
 }
 
 #content h2 {
-  color: #ffffff;
-
+  color: #3b638b;
 }
-
-
 
 #articles {
   display: flex;
@@ -122,7 +120,7 @@ header.primary a:hover {
 }
 
 article.post {
-  box-shadow: 0 4px 8px 0 rgba(243, 241, 241, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   padding: 10px;
 }
 
@@ -131,7 +129,7 @@ figcaption,
 .post-meta {
   font-size: 0.7rem;
   text-transform: uppercase;
-  color: rgb(248, 245, 245);
+  color: grey;
 }
 
 article.post a {
