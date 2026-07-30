@@ -10,7 +10,7 @@
   max-width: 960px;
 }
 
-/* Customize Slideshow */
+/* You can copy & paste slick-demos css here for fish scale background */
 
 /* Customize Previous/Next/Dots/Autoplay */
 
@@ -19,7 +19,7 @@
 .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: white;
+  color: rgb(56, 50, 50);
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
@@ -31,7 +31,7 @@
 .slick-dots li button:focus .slick-dot-icon:before,
 .slick-dots li.slick-active button:focus .slick-dot-icon,
 .slick-autoplay-toggle-button:focus {
-  color:black;
+  color:white;
 }
 
 /*Responsive Images*/
@@ -41,7 +41,7 @@ img {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #d8a8a8;
   font-family:"Jim Nightshade", cursive;
   margin: 0;
 }
@@ -104,8 +104,11 @@ header.primary a:hover {
 }
 
 #content h2 {
-  color: #3b638b;
+  color: #ffffff;
+
 }
+
+
 
 #articles {
   display: flex;
